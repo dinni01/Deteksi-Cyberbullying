@@ -41,16 +41,12 @@ Route::middleware(['auth.admin', 'preventBackHistory', 'session.timeout'])->grou
 });
 
 // Other Routes
-Route::get('admin/model', [ModelController::class, 'index'])->name('models.index');
-Route::get('admin/model/create', [ModelController::class, 'create'])->name('models.create');
-Route::post('admin/model', [ModelController::class, 'store'])->name('models.store');
-Route::get('admin/model/{id}', [ModelController::class, 'show'])->name('models.show');
-Route::delete('admin/model/{id}', [ModelController::class, 'destroy'])->name('models.destroy');
+
 
 Route::get('admin/riwayatdeteksi', [RiwayatDeteksiController::class, 'index'])->name('riwayatdeteksi.index');
 Route::delete('admin/riwayatdeteksi/{id}', [RiwayatDeteksiController::class, 'destroy'])->name('riwayatdeteksi.destroy');
 
-Route::resource('datasets', DatasetController::class);
+
 
 Route::get('/klasifikasi', [KlasifikasiController::class, 'index'])->name('klasifikasi.index');
 Route::post('/klasifikasi', [KlasifikasiController::class, 'process'])->name('klasifikasi.process');
