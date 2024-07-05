@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\KlasifikasiController;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\DatasetController;
-use App\Http\Controllers\ModelController;
 use App\Http\Controllers\RiwayatDeteksiController;
 
 /*
