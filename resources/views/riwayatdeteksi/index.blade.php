@@ -57,7 +57,7 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Home</a></li>
+              <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Dashbord</a></li>
               <li class="breadcrumb-item active">Riwayat Deteksi</li>
             </ol>
           </div>
@@ -85,7 +85,7 @@
                         <th>Teks</th>
                         <th>Hasil Prediksi</th>
                         <th>Waktu</th>
-                        <th>Aksi</th>
+                        <!-- <th>Aksi</th> -->
                       </tr>
                     </thead>
                     <tbody>
@@ -95,7 +95,7 @@
                         <td>{{ $history->text }}</td>
                         <td>{{ $history->hasil_prediksi }}</td>
                         <td>{{ $history->created_at }}</td>
-                        <td>
+                        <!-- <td>
                           <button class="btn btn-danger btn-sm delete-button" data-id="{{ $history->id }}" data-toggle="tooltip" title="Delete Riwayat">
                             <i class="fas fa-trash"></i>
                           </button>
@@ -103,7 +103,7 @@
                             @csrf
                             @method('DELETE')
                           </form>
-                        </td>
+                        </td> -->
                       </tr>
                       @endforeach
                     </tbody>

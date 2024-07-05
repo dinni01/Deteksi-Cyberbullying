@@ -23,7 +23,7 @@
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="{{ route('admin.index') }}">Manage Admin</a></li>
+                                <li class="breadcrumb-item"><a href="{{ route('admin.index') }}">Kelola Admin</a></li>
                                 <li class="breadcrumb-item active">Edit Admin</li>
                             </ol>
                         </div>
@@ -45,15 +45,15 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="username">Username</label>
-                                            <input type="text" class="form-control" id="username" name="username" value="{{ $admin->username }}" placeholder="Enter Username">
+                                            <input type="text" class="form-control" id="username" name="username" value="{{ $admin->username }}" placeholder="Masukan Username">
                                         </div>
                                         <div class="form-group">
                                             <label for="password">Password (leave blank if not changing)</label>
-                                            <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password">
+                                            <input type="password" class="form-control" id="password" name="password" placeholder="Masukan Password">
                                         </div>
                                         <div class="form-group">
                                             <label for="password_confirmation">Confirm Password</label>
-                                            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" placeholder="Confirm Password">
+                                            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" placeholder="Konfirmasi Password">
                                         </div>
                                     </div>
                                     <div class="card-footer">

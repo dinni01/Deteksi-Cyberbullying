@@ -35,8 +35,8 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Home</a></li>
-              <li class="breadcrumb-item active">Manage Admin</li>
+              <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Dashborad</a></li>
+              <li class="breadcrumb-item active">Kelola Admin</li>
             </ol>
           </div>
         </div>
@@ -53,7 +53,7 @@
               <div class="card-header">
                 <h3 class="card-title">Daftar Admin</h3>
                 <div class="card-tools">
-                  <a href="{{ route('admin.create') }}" class="btn btn-success">Add New Admin</a>
+                  <a href="{{ route('admin.create') }}" class="btn btn-success">Tambah Admin Baru</a>
                 </div>
               </div>
               <!-- /.card-header -->
@@ -133,13 +133,13 @@
 
   function deleteAdmin(id) {
     Swal.fire({
-      title: 'Are you sure?',
-      text: "You won't be able to revert this!",
+      title: 'Apakah kamu yakin?',
+      text: "Untuk menghapus data ini",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
-      confirmButtonText: 'Yes, delete it!'
+      confirmButtonText: 'Ya, hapus!'
     }).then((result) => {
       if (result.isConfirmed) {
         document.getElementById('delete-form-' + id).submit();

@@ -14,18 +14,6 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="{{ route('datasets.index') }}" class="nav-link">
-            <i class="nav-icon fas fa-database"></i>
-            <p>Dataset</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="{{ url('/admin/model') }}" class="nav-link">
-            <i class="nav-icon fas fa-project-diagram"></i>
-            <p>Model</p>
-          </a>
-        </li>
-        <li class="nav-item">
           <a href=""  class="nav-link">
             <i class="nav-icon fas fa-users"></i>
             <p>Admin</p>

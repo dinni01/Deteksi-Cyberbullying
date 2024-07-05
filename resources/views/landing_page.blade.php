@@ -43,7 +43,7 @@
                 <a class="nav-link page-scroll" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#services">About</a>
+                <a class="nav-link page-scroll" href="#services">Tentang</a>
               </li>  
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#contact">Pendeteksi</a>

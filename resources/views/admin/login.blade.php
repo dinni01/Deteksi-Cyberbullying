@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
-            background: linear-gradient(to bottom, #a8edea, #fed6e3); /* Background gradient biru pastel */
+            background: linear-gradient(to bottom, #a8edea, #fed6e3);
             font-family: Arial, sans-serif;
             height: 100vh;
             display: flex;
@@ -43,6 +43,17 @@
             background-color: #2980b9;
             border-color: #2980b9;
         }
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
         .toggle-password {
             position: absolute;
             top: 73%;
@@ -55,17 +66,6 @@
         }
         .form-control {
             padding-right: 35px;
-        }
-        .btn-link {
-            color: #3498db;
-            text-decoration: none;
-            display: block;
-            text-align: center;
-            margin-top: 10px;
-        }
-        .btn-link:hover {
-            color: #2980b9;
-            text-decoration: underline;
         }
         .alert-danger {
             font-size: 0.9em;
@@ -91,12 +91,12 @@
             <div class="form-group position-relative">
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password" name="password" required>
-                <span class="toggle-password fa fa-fw fa-eye-slash text-primary"></span>
+                <span class="toggle-password fa fa-fw fa-eye-slash"></span>
             </div>
             <button type="submit" class="btn btn-primary">Login</button>
         </form>
         <form action="{{ route('landing_page') }}">
-            <button type="submit" class="btn btn-link">Cancel</button>
+            <button type="submit" class="btn btn-secondary">Kembali</button>
         </form>
     </div>
     <script src="{{ asset('slick/js/jquery-min.js') }}"></script>
@@ -104,7 +104,7 @@
     <script>
         $(document).ready(function() {
             $(".toggle-password").click(function() {
-                $(this).toggleClass("fa-eye fa-eye-slash text-primary");
+                $(this).toggleClass("fa-eye fa-eye-slash");
                 var input = $($(this).closest(".form-group").find("input"));
                 if (input.attr("type") === "password") {
                     input.attr("type", "text");
