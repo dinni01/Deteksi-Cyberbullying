@@ -43,11 +43,11 @@
                 <a class="nav-link page-scroll" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#services">Tentang</a>
-              </li>  
-              <li class="nav-item">
                 <a class="nav-link page-scroll" href="#contact">Pendeteksi</a>
-              </li> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#services">About</a>
+              </li>  
             </ul>
           </div>
         </div>
@@ -73,80 +73,6 @@
       </div>             
     </header>
     <!-- Header Section End --> 
-
-
-       <!-- Services Section Start -->
-       <section id="services" class="section">
-      <div class="container">
-
-        <div class="row">
-          <!-- Start Col -->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item text-center">
-              <div class="icon">
-                <i class="lni-cog"></i>
-              </div>
-              <h4>Pembelajaran Mesin</h4>
-              <p>Memanfaatkan algoritma pembelajaran mesin untuk memprediksia adanya cyberbullying.</p>
-            </div>
-          </div>
-          <!-- End Col -->
-          <!-- Start Col -->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item text-center">
-              <div class="icon">
-                <i class="lni-brush"></i>
-              </div>
-              <h4>Ramah Pengguna</h4>
-              <p>Memfasilitasi interaksi dan pemahaman terhadap data cyberbullying.</p>
-            </div>
-          </div>
-          <!-- End Col -->
-          <!-- Start Col -->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item text-center">
-              <div class="icon">
-                <i class="lni-heart"></i>
-              </div>
-              <h4>Dukungan Sepenuh Hati</h4>
-              <p>Berkomitmen untuk memberi dukungan bagi korban cyberbullying dan mengedukasi terkait cyberbullying.</p>
-            </div>
-          </div>
-          <!-- End Col -->
-
-        </div>
-      </div>
-    </section>
-    <!-- Services Section End -->
-
-
-
-    <!-- Business Plan Section Start -->
-    <section id="business-plan">
-      <div class="container">
-
-        <div class="row">
-          <!-- Start Col -->
-          <div class="col-lg-6 col-md-12 pl-0 pt-70 pr-5">
-            <div class="business-item-img">
-              <img src="{{ asset('slick') }}/img/contact/01.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          <!-- End Col -->
-          <!-- Start Col -->
-          <div class="col-lg-6 col-md-12 pl-4">
-            <div class="business-item-info">
-              <h3>Menggunakan Media Sosial dengan Bijak: Menghindari Cyberbullying</h3>
-              <p> Media sosial adalah sarana yang kuat untuk terhubung, berbagi, dan berkomunikasi dengan orang lain di seluruh dunia. Namun, penting untuk menggunakan platform media sosial dengan bijak dan bertanggung jawab. Salah satu hal yang harus dihindari secara tegas adalah cyberbullying atau intimidasi secara online.</p>
-            </div>
-          </div>
-          <!-- End Col -->
-
-        </div>
-      </div>
-    </section>
-    <!-- Business Plan Section End -->
-
 
     <!-- Contact Us Section -->
     <section id="contact" class="section">
@@ -209,6 +135,76 @@
     </section>
     <!-- Contact Us Section End -->
 
+    <!-- Services Section Start -->
+    <section id="services" class="section">
+      <div class="container">
+
+        <div class="row">
+          <!-- Start Col -->
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="services-item text-center">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <h4>Pembelajaran Mesin</h4>
+              <p>Memanfaatkan algoritma pembelajaran mesin untuk memprediksia adanya cyberbullying.</p>
+            </div>
+          </div>
+          <!-- End Col -->
+          <!-- Start Col -->
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="services-item text-center">
+              <div class="icon">
+                <i class="lni-brush"></i>
+              </div>
+              <h4>Ramah Pengguna</h4>
+              <p>Memfasilitasi interaksi dan pemahaman terhadap data cyberbullying.</p>
+            </div>
+          </div>
+          <!-- End Col -->
+          <!-- Start Col -->
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="services-item text-center">
+              <div class="icon">
+                <i class="lni-heart"></i>
+              </div>
+              <h4>Dukungan Sepenuh Hati</h4>
+              <p>Berkomitmen untuk memberi dukungan bagi korban cyberbullying dan mengedukasi terkait cyberbullying.</p>
+            </div>
+          </div>
+          <!-- End Col -->
+
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Business Plan Section Start -->
+    <section id="business-plan">
+      <div class="container">
+
+        <div class="row">
+          <!-- Start Col -->
+          <div class="col-lg-6 col-md-12 pl-0 pt-70 pr-5">
+            <div class="business-item-img">
+              <img src="{{ asset('slick') }}/img/contact/01.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <!-- End Col -->
+          <!-- Start Col -->
+          <div class="col-lg-6 col-md-12 pl-4">
+            <div class="business-item-info">
+              <h3>Menggunakan Media Sosial dengan Bijak: Menghindari Cyberbullying</h3>
+              <p> Media sosial adalah sarana yang kuat untuk terhubung, berbagi, dan berkomunikasi dengan orang lain di seluruh dunia. Namun, penting untuk menggunakan platform media sosial dengan bijak dan bertanggung jawab. Salah satu hal yang harus dihindari secara tegas adalah cyberbullying atau intimidasi secara online.</p>
+            </div>
+          </div>
+          <!-- End Col -->
+
+        </div>
+      </div>
+    </section>
+    <!-- Business Plan Section End -->
+
     <!-- Footer Section Start -->
     <footer>
       <!-- Footer Area Start -->
@@ -219,24 +215,12 @@
           <p>Crafted by <a href="http://uideck.com" rel="nofollow">Andini Fitriani</a></p>
         </div>
 
-        <!-- <div class="copyright">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="site-info text-center">
-                  <p>Crafted by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
-                </div>              
-              </div>
-            </div>
-          </div>
-        </div> -->
       <!-- Copyright End -->
       </section>
       <!-- Footer area End -->
       
     </footer>
     <!-- Footer Section End --> 
-
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">
